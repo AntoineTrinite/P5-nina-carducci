@@ -60,7 +60,10 @@ body {
 	left: 0;
 	z-index: -1;
 }
-
+.banner{
+	width: 1903px;
+	height: 880px;
+}
 .picture {
 	flex: 1;
 	margin: 0 20px;
@@ -102,7 +105,7 @@ body {
 }
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
 	color: #fff;
-	background-color: #BEB45A;
+	background-color: #746916;
 	border-radius:0 ;
 }
 .nav-pills .nav-link {
