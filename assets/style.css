@@ -41,7 +41,10 @@ body {
 .social-link img {
 	width: 20px;
 }
-
+.insta-img{
+	width: 20px;
+	height: 20px;
+}
 #about {
 	display: flex;
 	background-color: #F6D2B8;
@@ -74,6 +77,10 @@ body {
 	width: 100%;
 
 }
+.nina-photo{
+	width: 554px;
+	height: 552px;
+}
 #about-me {
 	flex: 2
 }
@@ -93,9 +100,6 @@ body {
 	font-size: 14px;
 }
 
-#gallery {
-	/*	min-height: 100vh; */
-}
 .title{
 	text-align: center;
 	padding-block: 2em;
@@ -213,6 +217,10 @@ body {
 	bottom: 0;
 	right: 0;
 	z-index: -1;
+}
+.photo-camera{
+	width: 418px;
+	height: 417px;
 }
 .form-container {
 	flex : 2;
