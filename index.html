@@ -8,10 +8,36 @@
 		<meta property="og:description" content="Découvrez le portfolio de photographie de Nina Carducci, offrant des services pour les mariages, les concerts, les portraits et les entreprises. Avec un œil aiguisé pour les détails et une vision artistique unique, Nina capture les moments les plus importants. Parcourez ses superbes images, y compris les options de retouche, de prise de vue et d'album photo.">
 		<meta property="og:image" content="https://antoinetrinite.github.io/P5-nina-carducci/assets/images/nina.webp"/>
 
+		<!-- Twitter Card data -->
+		<meta name="twitter:card" content="summary_large_image">
+		<meta name="twitter:site" content="@publisher_handle">
+		<meta name="twitter:title" content="Nina Carducci, photographe professionnelle à Bordeaux">
+		<meta name="twitter:description" content="Nina Carducci, photographe professionnelle à Bordeaux, vous propose de saisir ces merveilleux moments d'une vie au travers de son regard, son approche, sa technique.">
+		<meta name="twitter:creator" content="@author_handle">
+		<meta name="twitter:image" content="https://antoinetrinite.github.io/P5-nina-carducci/assets/images/gallery/concert/singing.webp">
+		<meta name="twitter:image:alt" content="Plan large d'un chanteur durant un concert.">
 		<!-- meta geolocalisation -->
-		<meta name="address" content="68 avenue Alsace-Lorraine, 33200 Bordeaux, France">
-		<meta name="telephone" content="05 56 67 78 89">
-		<meta name="opening hours" content="Mo-Fr 10:00-19:00">
+		<script type="application/ld+json">
+			{
+			  "@context": "https://schema.org",
+			  "@type": "Place",
+			  "address": "68 avenue Alsace-Lorraine, 33200 Bordeaux, France"
+			}
+		  </script>
+		  <script type="application/ld+json">
+			{
+			  "@context": "https://schema.org",
+			  "@type": "ContactPoint",
+			  "telephone": "05 56 67 78 89"
+			}
+		  </script>
+		  <script type="application/ld+json">
+			{
+			  "@context": "https://schema.org",
+			  "@type": "Photograph",
+			  "openingHours": "Mo,Tu,We,Th,Fri 10:00-19:00"
+			}
+		  </script>
 		
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link defer rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css">
@@ -45,13 +71,13 @@
 		</div>
 		<div class="carousel-inner">
 			<div class="carousel-item active">
-				<img src="./assets/images/slider/man-crossing-road.webp" class="d-block w-100 banner" alt="Photo of a man crossing the street">
+				<img src="./assets/images/slider/man-crossing-road.webp" class="d-block h-100 w-100 banner" alt="Photo of a man crossing the street">
 			</div>
 			<div class="carousel-item">
-				<img src="./assets/images/slider/event-sport-fans.webp" class="d-block w-100 banner" alt="Photo of sport supporters">
+				<img src="./assets/images/slider/event-sport-fans.webp" class="d-block h-100 w-100 banner" alt="Photo of sport supporters">
 			</div>
 			<div class="carousel-item">
-				<img src="./assets/images/slider/wedding-kiss.webp" class="d-block w-100 banner" alt="Photo of just married couple kissing">
+				<img src="./assets/images/slider/wedding-kiss.webp" class="d-block h-100 w-100 banner" alt="Photo of just married couple kissing">
 			</div>
 		</div>
 		<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -66,7 +92,7 @@
 </div>
 <div id="about" role="region" aria-label="À propos">
 	<div class="picture left">
-		<img class="nina-photo" src="./assets/images/nina.webp" alt="Photo of the photograph">
+		<img class="nina-photo h-100" src="./assets/images/nina.webp" alt="Photo of the photograph">
 	</div>
 	<div id="about-me">
 		<h2 class="about-me__title">A propos de moi</h2>
@@ -161,7 +187,7 @@
 			  </form>
 		</div>
 		<div class="picture right">
-			<img class="photo-camera" src="./assets/images/camera.webp" alt="Photo of a camera">
+			<img class="photo-camera h-100" src="./assets/images/camera.webp" alt="Photo of a camera">
 		</div>
 	</div>
 </div>
